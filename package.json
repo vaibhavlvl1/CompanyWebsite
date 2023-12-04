@@ -1,0 +1,30 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "learning bootstrap with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch src/scss:src/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn",
+    "sass"
+  ],
+  "author": "Vaibhav Sutar",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "autoprefixer": "^10.4.16",
+    "bootstrap": "^5.3.2",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0"
+  }
+}
